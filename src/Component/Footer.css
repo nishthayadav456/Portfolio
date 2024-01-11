@@ -1,0 +1,29 @@
+.footer{
+    width: 100%;
+    color:#fff;
+    min-height:100px;
+    position: relative;
+    bottom: 0;
+    background-color: #21262c;
+}
+
+.footer_container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.first_div{
+    margin-top: 4rem;
+}
+.icon_div{
+    display: flex;
+}
+.footer .first_div{
+    width:300px;
+}
+.Second_div{
+    margin-top: 4rem;
+}
+.third_div{
+    margin-top: 4rem;
+}

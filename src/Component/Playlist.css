@@ -1,0 +1,21 @@
+.card_inner_div{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.row{
+    display: flex;
+   justify-content: space-around;
+   
+}
+.livedemo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spinner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}

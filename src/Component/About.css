@@ -1,0 +1,35 @@
+.container .about_container{
+    min-height: 100%;
+    margin-bottom: 3px;
+}
+.about_container{
+    min-height: 85vh;
+}
+.container .main_container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.left_container{
+    margin-top: 95px;
+    width: 500px;
+}
+.aboutp{
+    color: #666;
+    letter-spacing: 0.5px;
+    line-height: 1.5rem;
+   margin-top: 2px; 
+}
+.main_container .right_container{
+    margin-top: 70px;
+}
+.main_container .right_container img{
+width:25rem;
+height:33rem;
+}
+@media(max-width:449px){
+    .main_container .right_container img{
+        max-width:20rem;
+        height:20rem;
+    }
+}
